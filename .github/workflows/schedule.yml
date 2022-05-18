@@ -23,8 +23,8 @@ jobs:
     - name: upload files 
       uses: actions/upload-artifact@v2
       with: 
-        name: build-pages
-        path: build
+        name: dist
+        path: dist
         retention-days: 1
   Deploy:
     needs: Build
@@ -32,11 +32,11 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v2
-      - name: download build files
+      - name: download dist files
         uses: actions/download-artifact@v2
         with:
-          name: build-pages
-          path: build
+          name: dist
+          path: dist
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
