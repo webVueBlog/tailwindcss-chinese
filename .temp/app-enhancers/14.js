@@ -1,0 +1,1 @@
+export { default } from "C:\\temp\\awesome-css\\node_modules\\vuepress-plugin-code-copy\\appFile.js"

@@ -1,0 +1,24 @@
+{
+	"name": "awesome-css",
+	"version": "1.0.0",
+	"description": "awesome-css",
+	"author": "Jeskson-我是哪吒",
+	"license": "MIT",
+	"devDependencies": {
+		"vuepress": "^1.9.5",
+		"vuepress-plugin-dynamic-title": "^1.0.0"
+	},
+	"scripts": {
+		"serve": "vuepress dev docs --temp .temp",
+		"build": "vuepress build docs"
+	},
+	"dependencies": {
+		"@vuepress-reco/vuepress-plugin-loading-page": "^1.4.0",
+		"@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+		"@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.0",
+		"@vuepress-reco/vuepress-plugin-screenfull": "^1.0.1",
+		"vuepress-plugin-code-copy": "^1.0.6",
+		"@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.5.7",
+		"vuepress-theme-reco": "^1.6.10"
+	}
+}

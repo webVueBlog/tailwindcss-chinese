@@ -1,0 +1,1 @@
+export { default } from "C:\\temp\\awesome-css\\node_modules\\@vuepress-reco\\vuepress-plugin-kan-ban-niang\\bin\\enhanceAppFile.js"

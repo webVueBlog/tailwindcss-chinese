@@ -1,8 +1,8 @@
-# awesome-css
-
-国内css平台从业者交流
-
 > 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+
+## 学前必读
+
+提供最大程度的愉悦开发体验。提供便捷的阅读文档，并维护本站 awesome-css 文档。
 
 ## 目录
 
@@ -10,9 +10,11 @@
 
 - [transition](https://webvueblog.github.io/awesome-css/handbook/transition.html)
 
-## 学前必读
+## 留言评论
 
-提供最大程度的愉悦开发体验。提供便捷的阅读文档，并维护本站 awesome-css 文档。
+因为目前没有留言功能，请拉到文章底部，跳转到对应的 Github Issues，在 Issues 留言回复。
+
+<img src="./assets/20211213143926.png" style="display: flex; margin: auto; width: 100%;"/>
 
 ## 感谢指正
 
