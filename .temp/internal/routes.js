@@ -21,19 +21,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-17d17d01",
-    path: "/result/pullCurtain.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-17d17d01").then(next)
-    },
-  },
-  {
     name: "v-d3bebd6a",
     path: "/handbook/transition.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-d3bebd6a").then(next)
+    },
+  },
+  {
+    name: "v-17d17d01",
+    path: "/result/pullCurtain.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-17d17d01").then(next)
     },
   },
   {

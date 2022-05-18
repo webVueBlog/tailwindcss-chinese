@@ -68,6 +68,27 @@ export const siteData = {
           "slug": "license"
         }
       ],
+      "lastUpdated": "2022/5/18 下午1:32:44",
+      "lastUpdatedTimestamp": 1652851964000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/handbook/transition.html",
+      "relativePath": "handbook/transition.md",
+      "key": "v-d3bebd6a",
+      "path": "/handbook/transition.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "演示：",
+          "slug": "演示"
+        },
+        {
+          "level": 2,
+          "title": "指定要转换的属性",
+          "slug": "指定要转换的属性"
+        }
+      ],
       "lastUpdated": "2022/5/18 上午11:45:28",
       "lastUpdatedTimestamp": 1652845528000
     },
@@ -98,28 +119,9 @@ export const siteData = {
           "title": "“拉开窗帘”演示",
           "slug": "拉开窗帘-演示"
         }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/handbook/transition.html",
-      "relativePath": "handbook/transition.md",
-      "key": "v-d3bebd6a",
-      "path": "/handbook/transition.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "演示：",
-          "slug": "演示"
-        },
-        {
-          "level": 2,
-          "title": "指定要转换的属性",
-          "slug": "指定要转换的属性"
-        }
       ],
-      "lastUpdated": "2022/5/18 上午11:45:28",
-      "lastUpdatedTimestamp": 1652845528000
+      "lastUpdated": "2022/5/18 下午1:32:44",
+      "lastUpdatedTimestamp": 1652851964000
     },
     {
       "frontmatter": {
@@ -209,7 +211,7 @@ export const siteData = {
       },
       {
         "title": "效果",
-        "path": "/result/transition",
+        "path": "/result/pullCurtain",
         "collapsable": false,
         "children": [
           {

@@ -119,7 +119,7 @@ module.exports = {
 			},
 			{
 				title: "效果",
-				path: '/result/transition',
+				path: '/result/pullCurtain',
 				collapsable: false, // 不折叠
 				children: [{
 					title: "拉起窗帘",
