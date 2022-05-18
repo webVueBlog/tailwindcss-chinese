@@ -1,8 +1,10 @@
-name: First GitHub Actions Demo
+
+name: First GitHub Actions
 on: 
   push:
     branches:
       - master
+      - dev
 
 jobs:
   Build:
@@ -17,14 +19,14 @@ jobs:
         node-version: '16.14'
         cache: 'yarn'
         cache-dependency-path: '**/yarn.lock'
- 
+
     - run: yarn install && yarn build  
 
     - name: upload files 
       uses: actions/upload-artifact@v2
       with: 
-        name: dist
-        path: dist
+        name: build-pages
+        path: build
         retention-days: 1
   Deploy:
     needs: Build
@@ -32,15 +34,15 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v2
-      - name: download dist files
+      - name: download build files
         uses: actions/download-artifact@v2
         with:
-          name: dist
-          path: dist
+          name: build-pages
+          path: build
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
           branch: dist
-          folder: dist 
+          folder: build 
           token: "${{ secrets.AWESOME_CSS_TOKEN }}"  
       
