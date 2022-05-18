@@ -10,6 +10,10 @@
 
 - [transition](https://webvueblog.github.io/awesome-css/handbook/transition.html)
 
+### 效果
+
+- [拉起窗帘](https://webvueblog.github.io/awesome-css/result/pullCurtain.html)
+
 ## 学前必读
 
 提供最大程度的愉悦开发体验。提供便捷的阅读文档，并维护本站 awesome-css 文档。
