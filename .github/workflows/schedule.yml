@@ -19,20 +19,16 @@ jobs:
         cache: 'yarn'
         cache-dependency-path: '**/yarn.lock'
 
-    # 执行步骤的名称
     - name: Compiling start
-      # 执行的具体脚本
       run: echo Compiling start!
     - run: git config --global user.email "2979986590@qq.com"
     - run: git config --global user.name "webVueBlog"
-      # 执行安装跟打包命令
     - run: yarn install && yarn build
     - name: Deploy
-      # 这个是第三方提供的库，可以推送打包后的内容到指定分支
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.AWESOME_CSS_TOKEN }}
-        external_repository: ${{ github.repository }}
+        external_repository: webVueBlog/awesome-css
         # 推送的分支
         publish_branch: dist
         # 推送的内容
