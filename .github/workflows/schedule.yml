@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - dev
 
 jobs:
   Build:
@@ -20,29 +19,21 @@ jobs:
         cache: 'yarn'
         cache-dependency-path: '**/yarn.lock'
 
-    - run: yarn install && yarn build  
-
-    - name: upload files 
-      uses: actions/upload-artifact@v2
-      with: 
-        name: dist
-        path: docs/.vuepress/
-        retention-days: 1
-  Deploy:
-    needs: Build
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout code
-        uses: actions/checkout@v2
-      - name: download build files
-        uses: actions/download-artifact@v2
-        with:
-          name: dist
-          path: docs/.vuepress/
-      - name: deploy
-        uses: JamesIves/github-pages-deploy-action@v4.2.3
-        with:
-          branch: dist
-          folder: dist 
-          token: "${{ secrets.AWESOME_CSS_TOKEN }}"  
-      
+    # 执行步骤的名称
+    - name: Compiling start
+      # 执行的具体脚本
+      run: echo Compiling start!
+    - run: git config --global user.email "2979986590@qq.com"
+    - run: git config --global user.name "webVueBlog"
+      # 执行安装跟打包命令
+    - run: yarn install && yarn build
+    - name: Deploy
+      # 这个是第三方提供的库，可以推送打包后的内容到指定分支
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.AWESOME_CSS_TOKEN }}
+        external_repository: ${{ github.repository }}
+        # 推送的分支
+        publish_branch: dist
+        # 推送的内容
+        publish_dir: docs/.vuepress/dist
