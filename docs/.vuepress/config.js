@@ -117,6 +117,15 @@ module.exports = {
 					path: "/handbook/transition"
 				}],
 			},
+			{
+				title: "效果",
+				path: '/result/transition',
+				collapsable: false, // 不折叠
+				children: [{
+					title: "拉起窗帘",
+					path: "/result/pullCurtain"
+				}],
+			},
 		]
 	}
 }

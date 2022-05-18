@@ -10,6 +10,10 @@
 
 - [transition](https://webvueblog.github.io/awesome-css/handbook/transition.html)
 
+### 效果
+
+- [拉起窗帘](https://webvueblog.github.io/awesome-css/result/pullCurtain.html)
+
 ## 留言评论
 
 因为目前没有留言功能，请拉到文章底部，跳转到对应的 Github Issues，在 Issues 留言回复。

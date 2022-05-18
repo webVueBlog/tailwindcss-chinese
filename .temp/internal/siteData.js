@@ -17,25 +17,6 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
-      "regularPath": "/handbook/transition.html",
-      "relativePath": "handbook/transition.md",
-      "key": "v-d3bebd6a",
-      "path": "/handbook/transition.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "演示：",
-          "slug": "演示"
-        },
-        {
-          "level": 2,
-          "title": "指定要转换的属性",
-          "slug": "指定要转换的属性"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-71b5b85d",
@@ -55,6 +36,11 @@ export const siteData = {
           "level": 3,
           "title": "属性",
           "slug": "属性"
+        },
+        {
+          "level": 3,
+          "title": "效果",
+          "slug": "效果"
         },
         {
           "level": 2,
@@ -81,7 +67,59 @@ export const siteData = {
           "title": "License",
           "slug": "license"
         }
+      ],
+      "lastUpdated": "2022/5/18 上午11:45:28",
+      "lastUpdatedTimestamp": 1652845528000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/result/pullCurtain.html",
+      "relativePath": "result/pullCurtain.md",
+      "key": "v-17d17d01",
+      "path": "/result/pullCurtain.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "让我们设置一些 CSS 变量",
+          "slug": "让我们设置一些-css-变量"
+        },
+        {
+          "level": 2,
+          "title": "是时候拉开帷幕了",
+          "slug": "是时候拉开帷幕了"
+        },
+        {
+          "level": 2,
+          "title": "制作粘性内容",
+          "slug": "制作粘性内容"
+        },
+        {
+          "level": 2,
+          "title": "“拉开窗帘”演示",
+          "slug": "拉开窗帘-演示"
+        }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/handbook/transition.html",
+      "relativePath": "handbook/transition.md",
+      "key": "v-d3bebd6a",
+      "path": "/handbook/transition.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "演示：",
+          "slug": "演示"
+        },
+        {
+          "level": 2,
+          "title": "指定要转换的属性",
+          "slug": "指定要转换的属性"
+        }
+      ],
+      "lastUpdated": "2022/5/18 上午11:45:28",
+      "lastUpdatedTimestamp": 1652845528000
     },
     {
       "frontmatter": {
@@ -166,6 +204,17 @@ export const siteData = {
           {
             "title": "transition",
             "path": "/handbook/transition"
+          }
+        ]
+      },
+      {
+        "title": "效果",
+        "path": "/result/transition",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "拉起窗帘",
+            "path": "/result/pullCurtain"
           }
         ]
       }
