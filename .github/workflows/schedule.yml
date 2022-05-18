@@ -25,8 +25,8 @@ jobs:
     - name: upload files 
       uses: actions/upload-artifact@v2
       with: 
-        name: build-pages
-        path: build
+        name: dist
+        path: docs/.vuepress
         retention-days: 1
   Deploy:
     needs: Build
@@ -37,8 +37,8 @@ jobs:
       - name: download build files
         uses: actions/download-artifact@v2
         with:
-          name: build-pages
-          path: build
+          name: dist
+          path: docs/.vuepress
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
