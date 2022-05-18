@@ -1,0 +1,33 @@
+name: schedule
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Install deno
+        uses: denolib/setup-deno@master
+
+      - name: Run deno
+        run: |
+          git config --local user.email "2979986590@qq.com"
+          git config --local user.name "webVueBlog"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.AWESOME_CSS_TOKEN }}@github.com/${{ github.repository }}
+          git pull
+          set -e
+          yarn build
+          printf "打包成功\n"
+          cd docs/.vuepress/dist
+          git init
+          git checkout -b dist
+          git add -A
+          git commit -m 'awesome-css github-pages'
+          git push
+          printf "提交成功\n"
