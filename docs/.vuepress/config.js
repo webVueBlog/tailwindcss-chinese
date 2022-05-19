@@ -1,5 +1,5 @@
 module.exports = {
-	title: 'awesome-css',
+	title: '国内css平台从业者交流',
 	description: 'awesome-css',
 	base: '/awesome-css/',
 	theme: 'reco',
