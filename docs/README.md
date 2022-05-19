@@ -9,6 +9,7 @@
 ### 属性
 
 - [transition](https://webvueblog.github.io/awesome-css/handbook/transition.html)
+- [animation](https://webvueblog.github.io/awesome-css/handbook/animation.html)
 
 ### 选择器
 

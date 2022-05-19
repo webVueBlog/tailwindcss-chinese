@@ -115,6 +115,9 @@ module.exports = {
 				children: [{
 					title: "transition",
 					path: "/handbook/transition"
+				},{
+					title: "animation",
+					path: "/handbook/animation"
 				}],
 			},
 			{
