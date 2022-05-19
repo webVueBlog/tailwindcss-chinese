@@ -10,9 +10,15 @@
 
 - [transition](https://webvueblog.github.io/awesome-css/handbook/transition.html)
 
+### 选择器
+
+- [::before和::after](https://webvueblog.github.io/awesome-css/selector/after_before.html)
+- [:active](https://webvueblog.github.io/awesome-css/selector/active.html)
+
 ### 效果
 
 - [拉起窗帘](https://webvueblog.github.io/awesome-css/result/pullCurtain.html)
+- [实现水平垂直居中最便捷的方法](https://webvueblog.github.io/awesome-css/result/best-way-to-center-element.html)
 
 ## 留言评论
 

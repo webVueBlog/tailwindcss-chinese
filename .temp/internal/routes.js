@@ -9,6 +9,14 @@ import GlobalLayout from "C:\\temp\\awesome-css\\node_modules\\@vuepress\\core\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-d3bebd6a",
+    path: "/handbook/transition.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d3bebd6a").then(next)
+    },
+  },
+  {
     name: "v-71b5b85d",
     path: "/",
     component: GlobalLayout,
@@ -21,11 +29,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-d3bebd6a",
-    path: "/handbook/transition.html",
+    name: "v-4b67aa6b",
+    path: "/result/best-way-to-center-element.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d3bebd6a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4b67aa6b").then(next)
     },
   },
   {
@@ -37,43 +45,20 @@ export const routes = [
     },
   },
   {
-    name: "v-b1564aac",
-    path: "/tag/",
+    name: "v-226d16ea",
+    path: "/selector/active.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-226d16ea").then(next)
     },
-    meta: {"pid":"tags","id":"tags"}
   },
   {
-    path: "/tag/index.html",
-    redirect: "/tag/"
-  },
-  {
-    name: "v-ef9325c4",
-    path: "/categories/",
+    name: "v-de1785ea",
+    path: "/selector/after_before.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-de1785ea").then(next)
     },
-    meta: {"pid":"categories","id":"categories"}
-  },
-  {
-    path: "/categories/index.html",
-    redirect: "/categories/"
-  },
-  {
-    name: "v-6319eb4e",
-    path: "/timeline/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
-    },
-    meta: {"pid":"timeline","id":"timeline"}
-  },
-  {
-    path: "/timeline/index.html",
-    redirect: "/timeline/"
   },
   {
     path: '*',

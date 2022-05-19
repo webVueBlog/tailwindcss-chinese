@@ -118,12 +118,27 @@ module.exports = {
 				}],
 			},
 			{
+				title: "选择器",
+				path: '/selector/after_before',
+				collapsable: false, // 不折叠
+				children: [{
+					title: "::before和::after",
+					path: "/selector/after_before"
+				},{
+					title: ":active",
+					path: "/selector/active"
+				}],
+			},
+			{
 				title: "效果",
 				path: '/result/pullCurtain',
 				collapsable: false, // 不折叠
 				children: [{
 					title: "拉起窗帘",
 					path: "/result/pullCurtain"
+				},{
+					title: "实现水平垂直居中最便捷的方法",
+					path: "/result/best-way-to-center-element"
 				}],
 			},
 		]

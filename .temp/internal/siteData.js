@@ -17,6 +17,27 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
+      "regularPath": "/handbook/transition.html",
+      "relativePath": "handbook/transition.md",
+      "key": "v-d3bebd6a",
+      "path": "/handbook/transition.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "演示：",
+          "slug": "演示"
+        },
+        {
+          "level": 2,
+          "title": "指定要转换的属性",
+          "slug": "指定要转换的属性"
+        }
+      ],
+      "lastUpdated": "2022/5/18 上午11:45:28",
+      "lastUpdatedTimestamp": 1652845528000
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-71b5b85d",
@@ -36,6 +57,11 @@ export const siteData = {
           "level": 3,
           "title": "属性",
           "slug": "属性"
+        },
+        {
+          "level": 3,
+          "title": "选择器",
+          "slug": "选择器"
         },
         {
           "level": 3,
@@ -73,24 +99,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/handbook/transition.html",
-      "relativePath": "handbook/transition.md",
-      "key": "v-d3bebd6a",
-      "path": "/handbook/transition.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "演示：",
-          "slug": "演示"
-        },
-        {
-          "level": 2,
-          "title": "指定要转换的属性",
-          "slug": "指定要转换的属性"
-        }
-      ],
-      "lastUpdated": "2022/5/18 上午11:45:28",
-      "lastUpdatedTimestamp": 1652845528000
+      "regularPath": "/result/best-way-to-center-element.html",
+      "relativePath": "result/best-way-to-center-element.md",
+      "key": "v-4b67aa6b",
+      "path": "/result/best-way-to-center-element.html"
     },
     {
       "frontmatter": {},
@@ -124,31 +136,30 @@ export const siteData = {
       "lastUpdatedTimestamp": 1652851964000
     },
     {
-      "frontmatter": {
-        "layout": "Tags",
-        "title": "Tags"
-      },
-      "regularPath": "/tag/",
-      "key": "v-b1564aac",
-      "path": "/tag/"
+      "frontmatter": {},
+      "regularPath": "/selector/active.html",
+      "relativePath": "selector/active.md",
+      "key": "v-226d16ea",
+      "path": "/selector/active.html"
     },
     {
-      "frontmatter": {
-        "layout": "FrontmatterKey",
-        "title": "Categories"
-      },
-      "regularPath": "/categories/",
-      "key": "v-ef9325c4",
-      "path": "/categories/"
-    },
-    {
-      "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline"
-      },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
+      "frontmatter": {},
+      "regularPath": "/selector/after_before.html",
+      "relativePath": "selector/after_before.md",
+      "key": "v-de1785ea",
+      "path": "/selector/after_before.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "content的值：",
+          "slug": "content的值"
+        },
+        {
+          "level": 2,
+          "title": "浏览器兼容：",
+          "slug": "浏览器兼容"
+        }
+      ]
     }
   ],
   "themeConfig": {
@@ -210,6 +221,21 @@ export const siteData = {
         ]
       },
       {
+        "title": "选择器",
+        "path": "/selector/after_before",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "::before和::after",
+            "path": "/selector/after_before"
+          },
+          {
+            "title": ":active",
+            "path": "/selector/active"
+          }
+        ]
+      },
+      {
         "title": "效果",
         "path": "/result/pullCurtain",
         "collapsable": false,
@@ -217,6 +243,10 @@ export const siteData = {
           {
             "title": "拉起窗帘",
             "path": "/result/pullCurtain"
+          },
+          {
+            "title": "实现水平垂直居中最便捷的方法",
+            "path": "/result/best-way-to-center-element"
           }
         ]
       }
