@@ -20,6 +20,8 @@
 
 - [拉起窗帘](https://webvueblog.github.io/awesome-css/result/pullCurtain.html)
 - [实现水平垂直居中最便捷的方法](https://webvueblog.github.io/awesome-css/result/best-way-to-center-element.html)
+- [轮播图效果](https://webvueblog.github.io/awesome-css/result/css-carousel.html)
+- [瀑布流效果](https://webvueblog.github.io/awesome-css/result/ccss-masonry-flexbox.html)
 
 ## 学前必读
 

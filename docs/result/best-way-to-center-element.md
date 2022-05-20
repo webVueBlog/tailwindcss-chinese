@@ -1,4 +1,6 @@
-实现水平垂直居中最便捷的方法
+> 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+
+## 实现水平垂直居中最便捷的方法
 
 FFC/GFC 使 `margin: auto` 在垂直方向上居中元素。
 

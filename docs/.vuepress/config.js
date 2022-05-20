@@ -142,6 +142,12 @@ module.exports = {
 				},{
 					title: "实现水平垂直居中最便捷的方法",
 					path: "/result/best-way-to-center-element"
+				},{
+					title: "轮播图效果",
+					path: "/result/css-carousel"
+				},{
+					title: "瀑布流效果",
+					path: "/result/css-masonry-flexbox"
 				}],
 			},
 		]

@@ -3,10 +3,12 @@
  */
 export default {
   "v-71b5b85d": () => import("C:\\temp\\awesome-css\\docs\\README.md"),
-  "v-6fb72b5d": () => import("C:\\temp\\awesome-css\\docs\\handbook\\animation.md"),
-  "v-17d17d01": () => import("C:\\temp\\awesome-css\\docs\\result\\pullCurtain.md"),
   "v-4b67aa6b": () => import("C:\\temp\\awesome-css\\docs\\result\\best-way-to-center-element.md"),
-  "v-de1785ea": () => import("C:\\temp\\awesome-css\\docs\\selector\\after_before.md"),
+  "v-6fb72b5d": () => import("C:\\temp\\awesome-css\\docs\\handbook\\animation.md"),
   "v-d3bebd6a": () => import("C:\\temp\\awesome-css\\docs\\handbook\\transition.md"),
-  "v-226d16ea": () => import("C:\\temp\\awesome-css\\docs\\selector\\active.md") 
+  "v-41f7e25b": () => import("C:\\temp\\awesome-css\\docs\\result\\css-masonry-flexbox.md"),
+  "v-17d17d01": () => import("C:\\temp\\awesome-css\\docs\\result\\pullCurtain.md"),
+  "v-7c40000b": () => import("C:\\temp\\awesome-css\\docs\\result\\css-carousel.md"),
+  "v-226d16ea": () => import("C:\\temp\\awesome-css\\docs\\selector\\active.md"),
+  "v-de1785ea": () => import("C:\\temp\\awesome-css\\docs\\selector\\after_before.md") 
 }
