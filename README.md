@@ -2,7 +2,7 @@
 
 国内css平台从业者交流 : 优势自动化发布博客，玩CSS的乐园
 
-<img align='center' src='https://user-images.githubusercontent.com/59645426/176901215-327525a6-3c57-4a22-bc6b-f724f1b497a3.jpg' width='350'>
+<img align='center' src='https://user-images.githubusercontent.com/59645426/176986758-b6b0a15a-f834-4fd4-8965-980335d7eff7.jpg' width='350'>
 
 > 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
 
