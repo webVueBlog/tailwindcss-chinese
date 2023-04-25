@@ -1,7 +1,7 @@
 module.exports = {
-	title: '国内css平台从业者交流',
-	description: 'awesome-css',
-	base: '/awesome-css/',
+	title: '国内tailwindcss平台从业者交流',
+	description: 'tailwindcss-chinese',
+	base: '/tailwindcss-chinese/',
 	theme: 'reco',
 	head: [
 		['meta', {
@@ -69,7 +69,7 @@ module.exports = {
 		}
 	},
 	themeConfig: {
-		repo: 'https://github.com/webVueBlog/awesome-css',
+		repo: 'https://github.com/webVueBlog/tailwindcss-chinese',
 		repoLabel: 'Github',
 		editLinks: true,
 		editLinkText: '编辑此页',
@@ -81,7 +81,7 @@ module.exports = {
 			},
 			{
 				text: '星星♥',
-				link: 'https://github.com/webVueBlog/awesome-css'
+				link: 'https://github.com/webVueBlog/tailwindcss-chinese'
 			},
 			{
 				text: '其它',
