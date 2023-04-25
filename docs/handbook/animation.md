@@ -1,4 +1,4 @@
-> 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+> 点击勘误[issues](https://github.com/webVueBlog/tailwindcss-chinese/issues)，感谢大家的阅读
 
 ## animation属性
 

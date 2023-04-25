@@ -1,4 +1,4 @@
-> 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+> 点击勘误[issues](https://github.com/webVueBlog/tailwindcss-chinese/issues)，感谢大家的阅读
 
 该transition属性是一个简写属性，用于表示最多四个与转换相关的简写属性
 

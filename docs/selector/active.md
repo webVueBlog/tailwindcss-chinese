@@ -1,4 +1,4 @@
-> 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+> 点击勘误[issues](https://github.com/webVueBlog/tailwindcss-chinese/issues)，感谢大家的阅读
 
 伪选择器在:active链接被激活（被点击或以其他方式激活）时更改链接的外观。它通常只出现一瞬间，并提供元素确实被点击的视觉反馈。它最常用于锚链接 ( `<a href="#"></a>`)。
 

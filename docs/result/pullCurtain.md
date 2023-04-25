@@ -1,4 +1,4 @@
-> 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+> 点击勘误[issues](https://github.com/webVueBlog/tailwindcss-chinese/issues)，感谢大家的阅读
 
 首先，我们需要一个用于放置窗帘的容器，我们将给它.curtain，我们有一个.invert子元素，它将作为我们的“粘性”框。最后，我们在这个盒子里有了内容。
 

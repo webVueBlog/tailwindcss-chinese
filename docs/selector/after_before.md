@@ -1,4 +1,4 @@
-> 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+> 点击勘误[issues](https://github.com/webVueBlog/tailwindcss-chinese/issues)，感谢大家的阅读
 
 CSS 中的::before和::after伪元素允许您将内容插入页面而不需要在 HTML 中。虽然最终结果实际上并不存在于 DOM 中，但它在页面上的显示就好像它存在一样，并且本质上是这样的：
 
