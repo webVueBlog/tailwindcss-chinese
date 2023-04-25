@@ -1,21 +1,19 @@
-# awesome-css
+# tailwindcss-chinese
 
-国内css平台从业者交流 : 优势自动化发布博客，玩CSS的乐园
+🤖 国内tailwindcss平台从业者交流，Github Actions自动化部署 : 优势自动化发布博客，玩CSS的乐园
 
-<img align='center' src='https://user-images.githubusercontent.com/59645426/176986758-b6b0a15a-f834-4fd4-8965-980335d7eff7.jpg' width='350'>
-
-> 点击勘误[issues](https://github.com/webVueBlog/awesome-css/issues)，感谢大家的阅读
+> 点击勘误[issues](https://github.com/webVueBlog/tailwindcss-chinese/issues)，感谢大家的阅读
 
 ```js
 yarn install // 安装依赖
 yarn serve // 预览
 ```
 
-## 加入awesome-css
+## 加入tailwindcss-chinese
 
-- awesome-css的最大好处就是可以锻炼解决css问题的思维能力。相信我，「如何去思考」​ 本身也是一项需要不断学习和练习的技能。
+- tailwindcss-chinese的最大好处就是可以锻炼解决css问题的思维能力。相信我，「如何去思考」​ 本身也是一项需要不断学习和练习的技能。
 
-> 如果你对本项目感兴趣，并且希望加入awesome-css，欢迎随时提交 PR。请参考如下步骤：
+> 如果你对本项目感兴趣，并且希望加入tailwindcss-chinese，欢迎随时提交 PR。请参考如下步骤：
 - 将本项目 fork 到你的个人 GitHub 帐户，然后 clone 到你的本地机器；
 - 进入 某 目录，切换到一个新的分支；
 - 对项目做出一些变更，然后使用 git add、commit、push 等命令将你的本地变更提交到你的远程 GitHub 仓库；
